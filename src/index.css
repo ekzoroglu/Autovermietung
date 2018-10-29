@@ -1,0 +1,74 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#tabelle td, #tabelle th {
+    border: 1px solid black;
+    padding: 8px;
+}
+td img {
+    height: 100px;
+    width: 120px;
+}#tabelle, h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: var(--font-color);
+}
+@media screen and (min-width: 768px) {
+    body,
+    input {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body,
+    input {
+        font-size: 13pt;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body,
+    input {
+        font-size: 14pt;
+    }
+}
+/*
+ * Flächendeckender Seitenhintergrund auf großen Bildschirmen
+ */
+    /* Hauptbereich der App vergrößern */
+    body {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    body > * {
+        flex: 1;
+    }
+}
+
+/*
+ * Häufig benötigte Hilfsklassen
+ */
+.hidden {
+    display: none;
+}
+
+.padding {
+    padding: 0.5rem;
+}
