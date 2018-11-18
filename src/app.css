@@ -12,11 +12,11 @@
 #app header .item {
     display: block;
     box-sizing: border-box;
-    width: 100%;
+    width: 100% auto;
 }
 
 #app header > .top {
-    font-size: 80%;
+    font-size: 100%;
 
     border: 0px solid var(--header-active-background-color);
     border-bottom-width: 1px;
@@ -63,14 +63,17 @@
     color: var(--header-normal-font-color);
     border: 0;
 }#app main {
-    background-image: url(Autos.jpg);
-    background-size: 70% auto;
+
+    background-color: grey;
+    background-image: url(grau.jpg);
+    height: 250px;
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
 
-    color: rgb(0, 0, 0);
+    color: grey;
     text-shadow: 1px 1px 2px black;
-    font-size: 200%;
+    font-size: 100%;
     font-weight: bold;
     text-align: center;
 }
@@ -84,28 +87,23 @@
         border: 1px solid rgba(32,32,32, 0.2);
         box-shadow: 1px 1px 3px rgba(0,0,0, 0.1);
     }
-
     /* Topbar- und Toolbar-Inhalte nebeneinander */
     #app header {
         display: grid;
         grid-template-columns: auto 20em;
     }
-
     #app header .top {
         grid-row: 1;
     }
-
     #app header .bottom {
         grid-row: 2;
     }
-
     #app header .left {
         grid-column: 1;
 
         display: flex;
         justify-content: flex-start;
     }
-
     #app header .right{
         grid-column: 2;
 
@@ -115,12 +113,9 @@
         background-color: var(--header-active-background-color);
         color: var(--header-active-font-color);
     }
-
     #app header .item {
         width: auto;
     }
-
-    /* Nur den Bereich unterhalb der Toolbar scrollen */
     #app {
         display: flex;
         flex-direction: column;

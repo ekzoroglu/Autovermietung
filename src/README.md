@@ -1,17 +1,14 @@
-Beispielanwendung "My Songbook"
+Anwendung "Autovermietung"
 ===============================
 
 Kurzbeschreibung
 ----------------
 
-Dies ist ein Beispiel für eine Browser App, die ohne einen Server
+Dies ist eine Browser App, die ohne einen Server
 im Hintergrund komplett im Browser läuft. Es handelt sich dabei
 um eine so genannte Single Page App, da die App nur einmal durch
 Aufrufen der HTML-Datei gestartet und dann bis zum Verlassen der
 App nicht wieder neugeladen wird.
-
-Die Anwendung kann an folgender Stelle online betrachtet werden:
-https://www.wpvs.de/my-songbook/
 
 Verwendete Technologien
 -----------------------
@@ -38,36 +35,12 @@ Zusätzlich werden folgende Bibliotheken genutzt:
 
 UI-Skizzen und Screenshots
 --------------------------
+Bitte starten Sie die App über einen modernen Browser wie Google Chrome.
 
-Die App richtet sich an Musiker, die anhand eines Lead Sheets neue Lieder
-üben oder diese auf der Bühne vortragen wollen. Hierfür bietet sie eine
-einfache Verwaltung von Songtexten mit der Möglichkeit, neue Texte online
-zu suchen und der eigenen Sammlung hinzuzufügen.
+Die App dient zur Übersicht und zum Aufbau einer Seite zur Autovermietung. Dabei können auch neue Autos hinzugefügt werden.
+Über das aufklappbare Feld "neues Auto hinzufügen" können wir neue Autos der Liste hinzufügen, ebenso kann man die hinzugefügte Liste löschen.
 
-<table style="max-width: 100%;">
-    <tr>
-        <td>
-            <img src="mockup1.png" style="display: block; width: 100%;" />
-        </td>
-        <td>
-            <img src="mockup2.png" style="display: block; width: 100%;" />
-        </td>
-        <td>
-            <img src="mockup3.png" style="display: block; width: 100%;" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Mobile Darstellung
-        </td>
-        <td>
-            Übersicht der Songtexte
-        </td>
-        <td>
-            Anzeige eines Songtexts
-        </td>
-    </tr>
-</table>
+
 
 Copyright
 ---------

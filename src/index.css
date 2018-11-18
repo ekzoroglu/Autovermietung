@@ -3,15 +3,16 @@
 html, body {
     padding: 0;
     margin: 0;
-    height: 100%;
+    height: auto;
+    weight: 80%;
 }
 #tabelle td, #tabelle th {
     border: 1px solid black;
     padding: 8px;
 }
 td img {
-    height: 100px;
-    width: 120px;
+    height: 120px;
+    width: 140px;
 }#tabelle, h1 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;

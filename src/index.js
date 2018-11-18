@@ -42,3 +42,10 @@ window.addEventListener("load", () => {
     let app = new App();
     app.start();
 });
+
+    console.log(localStorage);
+    function getData(){
+        var str = localStorage.getItem("localData");
+        if (str!=null)
+            arr= JSON.parse(str);
+    }   
